@@ -1,15 +1,11 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('Dev-branch-pipeline') {
             steps {
-                echo 'Building...'
+                echo 'This is dev branch pipeline...'
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing...'
-            }
-        }
+      
     }
 }
